@@ -1,0 +1,55 @@
+@import "tailwindcss";
+body{
+  background-color: #111;
+  color: white;
+}
+#taskList::-webkit-scrollbar{
+  display: none;
+}
+
+@media screen and (max-width: 500px){
+  #taskall-bar{
+    font-size: 10px;
+  }
+  #taskList{
+    position: relative;
+    top: -5px;
+    left: -20px;
+    height: 40vh;
+    flex-direction: column;
+    width: 90vw;
+    gap: 10px;
+  }
+  #header-navbar{
+    align-items: center;
+  }
+  #user-tasknumber{
+    flex-direction: column;
+    position: relative;
+    top: 2px;
+    & div{
+      width: 80vw;
+      height: 8vh;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      & h2{
+        order: 2;
+      }
+      & h3{
+        order: 1;
+      }
+    }
+  }
+}
+@media screen and (max-width: 400px){
+  #taskall-bar{
+    font-size: 10px;
+  }
+  #taskall-bar2{
+    width: 90vw;
+    position: relative;
+    left: -20px;
+  }
+}
