@@ -39,7 +39,7 @@ const Landing = () => {
     <div className="bg-slate-900 text-gray-100 font-sans">
       {/* Navbar */}
       <header className="flex items-center justify-between px-8 py-4 bg-slate-800 shadow">
-        <h1 className="text-2xl font-bold text-white">WorkBridge</h1>
+        <h1 className="text-2xl font-bold text-white">Workify</h1>
         <nav className="space-x-6 text-gray-300">
           <button className="hover:text-white">Home</button>
           <button className="hover:text-white">Features</button>
@@ -58,7 +58,7 @@ const Landing = () => {
 <section className="py-20 bg-slate-800 text-white text-center px-6">
   <h2 className="text-5xl font-bold mb-4">Empower Your Team</h2>
   <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-6">
-    WorkBridge streamlines recruitment, task assignment, payroll, and employee management — all in one modern platform.
+    Workify streamlines recruitment, task assignment, payroll, and employee management — all in one modern platform.
   </p>
   {/* Highlights */}
   <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-5xl mx-auto mt-10 mb-8">
@@ -133,9 +133,9 @@ const Landing = () => {
 
       {/* About */}
       <section className="py-16 px-6 bg-slate-900 text-center">
-        <h2 className="text-3xl font-bold mb-6 text-white">About WorkBridge</h2>
+        <h2 className="text-3xl font-bold mb-6 text-white">About Workify</h2>
         <p className="max-w-3xl mx-auto text-lg text-gray-300">
-          WorkBridge is a modern HR management platform tailored for growing companies. We help HR teams eliminate paperwork,
+          Workify is a modern HR management platform tailored for growing companies. We help HR teams eliminate paperwork,
           streamline communication, and automate repetitive tasks — freeing time to focus on people.
         </p>
       </section>
@@ -188,7 +188,7 @@ const Landing = () => {
           </div>
         </div>
         <p className="text-center text-sm text-gray-500 mt-10">
-          &copy; {new Date().getFullYear()} WorkBridge. All rights reserved.
+          &copy; {new Date().getFullYear()} Workify. All rights reserved.
         </p>
       </footer>
     </div>
